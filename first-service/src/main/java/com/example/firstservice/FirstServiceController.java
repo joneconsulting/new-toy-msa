@@ -17,7 +17,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/first-service")
+@RequestMapping("/first-service") // http://localhost:8081/first-service/welcome
 @Slf4j
 public class FirstServiceController {
     Environment env;

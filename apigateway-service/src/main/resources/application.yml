@@ -1,0 +1,18 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: apigateway-service
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: first-service
+            uri: http://localhost:8081/
+            predicates:
+              - Path=/first-service/**
+          - id: second-service
+            uri: http://localhost:8082/
+            predicates:
+              - Path=/second-service/**

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/second-service")
+@RequestMapping("/second-service") // http://localhost:8082/second-service/welcome
 @Slf4j
 public class SecondServiceController {
     @GetMapping("/welcome")
