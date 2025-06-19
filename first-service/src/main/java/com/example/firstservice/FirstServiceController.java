@@ -32,7 +32,7 @@ public class FirstServiceController {
     }
 
     @GetMapping("/message")
-    public String message(@RequestHeader("s-request") String header) {
+    public String message(@RequestHeader("f-request") String header) {
         log.info(header);
         return "Hello World in First Service.";
     }

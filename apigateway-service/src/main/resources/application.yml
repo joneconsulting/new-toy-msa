@@ -20,7 +20,13 @@ spring:
               uri: http://localhost:8081/
               predicates:
                 - Path=/first-service/**
+              filters:
+                - AddRequestHeader=f-request, 1st-request-header-by-yaml
+                - AddResponseHeader=f-response, 1st-response-header-from-yaml
             - id: second-service
               uri: http://localhost:8082/
               predicates:
                 - Path=/second-service/**
+              filters:
+                - AddRequestHeader=s-request, 2nd-request-header-by-yaml
+                - AddResponseHeader=s-response, 2nd-response-header-from-yaml
