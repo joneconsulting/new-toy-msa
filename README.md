@@ -21,3 +21,5 @@
       * FilterConfig.java 
     * ch02-5 branch
       * CustomFilter.java 
+      * GlobalFilter.java
+      * LoggingFilter.java
