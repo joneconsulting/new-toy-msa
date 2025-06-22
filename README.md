@@ -23,3 +23,6 @@
       * CustomFilter.java 
       * GlobalFilter.java
       * LoggingFilter.java
+    * ch02-6 branch
+      * APIGateway + Eureka
+      * Random port
