@@ -12,4 +12,5 @@
     * ch02-5: CustomFilter.java, GlobalFilter.java, LoggingFilter.java
     * ch02-6: APIGateway + Eureka, Random port
   * Section 3)
-    * ch03-1: user-service
+    * ch03-1: user-service (basic)
+    * ch03-2: user-service with spring security
