@@ -22,7 +22,7 @@ spring:
                 preLogger: true
                 postLogger: true
           routes:
-            - id: user-service-healthcheck
+            - id: user-service
               uri: lb://USER-SERVICE
               predicates:
                 - Path=/user-service/**
