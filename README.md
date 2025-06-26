@@ -14,7 +14,3 @@
   * Section 3)
     * ch03-1: user-service (basic)
     * ch03-2: user-service with spring security
-  * Section 4)
-    * ch04-1: user-service
-    * ch04-2: catalog-service
-    * ch04-3: order-service
