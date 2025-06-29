@@ -13,8 +13,6 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>service-discovery</module>
-        <module>user-service</module>
     </modules>
     <name>new-toy-msa</name>
     <description>new-toy-msa</description>
