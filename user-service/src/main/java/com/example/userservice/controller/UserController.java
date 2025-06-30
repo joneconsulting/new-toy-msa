@@ -35,7 +35,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/health-check")
+    @GetMapping("/health-check") // http://localhost:60000/health-check
     public String status() {
         return String.format("It's Working in User Service"
                 + ", port(local.server.port)=" + env.getProperty("local.server.port")
