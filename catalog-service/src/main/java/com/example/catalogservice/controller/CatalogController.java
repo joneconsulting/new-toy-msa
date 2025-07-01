@@ -24,9 +24,6 @@ public class CatalogController {
     CatalogService catalogService;
 
     @Autowired
-    private DiscoveryClient discoveryClient;
-
-    @Autowired
     public CatalogController(Environment env, CatalogService catalogService) {
         this.env = env;
         this.catalogService = catalogService;

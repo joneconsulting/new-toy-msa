@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 @Data
 @Slf4j
 @Service
-public class CatalogServiceImpl implements CatalogService{
+public class CatalogServiceImpl implements CatalogService {
     CatalogRepository catalogRepository;
 
     Environment env;
