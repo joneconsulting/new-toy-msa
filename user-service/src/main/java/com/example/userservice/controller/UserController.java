@@ -37,7 +37,7 @@ public class UserController {
         this.greeting = greeting;
         this.userService = userService;
     }
-
+    // http://localhost:8000/user-service/health-check --> http://localhost:60000/health-check
     @GetMapping("/health-check")
     public String status() {
         return String.format("It's Working in User Service"

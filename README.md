@@ -18,3 +18,6 @@
     * ch06-1: user-service (advanced)
     * ch06-2: catalog-service
     * ch06-3: order-service
+  * Section 7)
+    * ch07-1: user-service (login 처리)
+    * ch07-2: apigateway-service (routing 처리)
