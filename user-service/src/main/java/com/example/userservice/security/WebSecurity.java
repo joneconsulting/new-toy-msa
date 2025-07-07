@@ -45,7 +45,7 @@ public class WebSecurity {
                     .requestMatchers("/**").access(
                             new WebExpressionAuthorizationManager(
                                     "hasIpAddress('127.0.0.1') or hasIpAddress('::1') or " +
-                                    "hasIpAddress('192.168.0.250') or hasIpAddress('::1')")) // host pc ip address
+                                    "hasIpAddress('10.90.26.89') or hasIpAddress('::1')")) // host pc ip address
                     .anyRequest().authenticated()              // 그 외는 인증 필요
                 )
             .authenticationManager(authenticationManager)

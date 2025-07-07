@@ -40,5 +40,5 @@ greeting:
   message: Welcome to the Simple E-commerce.
 
 token:
-  expiration_time: 86400000 #10 days
+  expiration-time: 86400000 #10 days
   secret: my-very-long-secret-key-1234567890123456
