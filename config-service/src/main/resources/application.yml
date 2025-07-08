@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git: #default
+          uri: file:///Users/edowon/Desktop/Work/git-local-repo
+          default-label: master
+

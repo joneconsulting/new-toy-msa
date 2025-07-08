@@ -20,6 +20,7 @@
         <module>first-service</module>
         <module>second-service</module>
         <module>apigateway-service</module>
+        <module>config-service</module>
     </modules>
     <name>new-toy-msa</name>
     <description>new-toy-msa</description>
