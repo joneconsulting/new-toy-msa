@@ -10,4 +10,3 @@ spring:
         git: #default
           uri: file:///Users/edowon/Desktop/Work/git-local-repo
           default-label: master
-
