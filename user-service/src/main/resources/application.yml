@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: user-service
+#  config:
+#    import: "optional:configserver:http://localhost:8888"
   h2:
     console:
       enabled: true
