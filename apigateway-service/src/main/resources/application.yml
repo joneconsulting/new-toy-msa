@@ -11,6 +11,8 @@ eureka:
 spring:
   application:
     name: apigateway-service
+#  config:
+#    import: "optional:configserver:http://localhost:8888"
   cloud:
     gateway:
       server:
