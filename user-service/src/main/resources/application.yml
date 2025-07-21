@@ -37,7 +37,7 @@ eureka:
     register-with-eureka: true
 
 greeting:
-  message: Welcome to the Simple E-commerce.
+  message: Welcome to the Simple E-commerce. (spring boot)
 
 #token:
 #  expiration-time: 86400000 #10 days
