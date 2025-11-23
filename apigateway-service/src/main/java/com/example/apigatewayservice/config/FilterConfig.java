@@ -14,17 +14,13 @@ public class FilterConfig {
         this.env = env;
     }
 
-//    @Bean
+    @Bean
     public RouteLocator getRouteLocator(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route(r -> r.path("/first-service/**")
                         .filters(f -> f.addRequestHeader("f-request", "1st-request-header-by-java")
                                 .addResponseHeader("f-response", "1st-response-header-from-java"))
                         .uri("http://localhost:8081"))
-                .route(r -> r.path("/second-service/**")
-                        .filters(f -> f.addRequestHeader("s-request", "2nd-request-header-by-java")
-                                .addResponseHeader("s-response", "2nd-response-header-from-java"))
-                        .uri("http://localhost:8082"))
                 .build();
     }
 }

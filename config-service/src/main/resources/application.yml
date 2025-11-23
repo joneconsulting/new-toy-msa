@@ -21,6 +21,8 @@ spring:
           default-label: master
 #          username: [username]
 #          password: [password]
+#        encrypt:
+#          enabled: false
 
 management:
   endpoints:

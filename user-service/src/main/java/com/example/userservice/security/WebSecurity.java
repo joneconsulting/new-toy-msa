@@ -44,10 +44,11 @@ public class WebSecurity {
                     .requestMatchers("/h2-console/**").permitAll()  // 특정 경로 허용
                     .requestMatchers("/actuator/**").permitAll()  // 특정 경로 허용
                     .requestMatchers("/health-check/**").permitAll()  // 특정 경로 허용
+                    .requestMatchers("/welcome/**").permitAll()  // 특정 경로 허용
                     .requestMatchers("/**").access(
                             new WebExpressionAuthorizationManager(
                                     "hasIpAddress('127.0.0.1') or hasIpAddress('::1') or " +
-                                    "hasIpAddress('192.168.0.229') or hasIpAddress('::1')")) // host pc ip address
+                                    "hasIpAddress('192.168.8.196') or hasIpAddress('::1')")) // host pc ip address
                     .anyRequest().authenticated()              // 그 외는 인증 필요
                 )
             .authenticationManager(authenticationManager)

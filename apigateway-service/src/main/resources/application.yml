@@ -25,7 +25,20 @@ spring:
               args:
                 baseMessage: Spring Cloud Gateway WebFlux Global Filter
                 preLogger: true
-                postLogger: true
+#                postLogger: true
+#spring:
+#  application:
+#    name: apiGateway-service
+#  cloud:
+#    gateway:
+#      server:
+#        webflux:
+#          default-filters:
+#            - name: GlobalFilter
+#              args:
+#                baseMessage: Spring Cloud Gateway WebFlux Global Filter
+#                preLogger: true
+#                postLogger: true
           routes:
             - id: user-service-register
               uri: lb://USER-SERVICE

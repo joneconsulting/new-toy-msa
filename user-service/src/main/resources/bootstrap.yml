@@ -5,3 +5,9 @@ spring:
       name: user-service
 #  profiles:
 #    active: dev
+
+# 아래와 같이 처리 시  Detected a Non-hex character at 1 or 2 position 오류 (16진수로 표시하는게 필요)
+#encrypt:
+#  key: abcdefghijklmnopqrstuvwxyz1234567890
+#encrypt:
+#  key: 6162636465666768696a6b6c6d6e6f707172737475767778797a31323334353637383930

@@ -51,10 +51,11 @@ public class UserController {
 
     @GetMapping("/welcome")
     public String welcome(HttpServletRequest request) {
-        log.info("users.welcome ip: {}, {}, {}, {}", request.getRemoteAddr()
+        log.info("users.welcome ip: The INFO log level does not display the IP.");
+        log.debug("users.welcome ip: {}, {}, {}, {}", request.getRemoteAddr()
                 , request.getRemoteHost(), request.getRequestURI(), request.getRequestURL());
-
 //        return env.getProperty("greeting.message");
+        log.info("DB Pwd={}", env.getProperty("spring.datasource.password"));
         return greeting.getMessage();
     }
 

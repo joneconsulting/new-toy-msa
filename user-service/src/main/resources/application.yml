@@ -1,5 +1,5 @@
 server:
-  port: 0
+  port: 8081
 
 spring:
   application:
@@ -47,9 +47,9 @@ eureka:
 greeting:
   message: Welcome to the Simple E-commerce. (spring boot)
 
-#token:
-#  expiration-time: 86400000 #10 days
-#  secret: my-very-long-secret-key-1234567890123456
+token:
+  expiration-time: 86400000 #10 days
+  secret: my-very-long-secret-key-1234567890123456
 
 management:
   endpoints:
@@ -61,4 +61,5 @@ management:
           - beans
           - info
           - busrefresh
+          - env
 
