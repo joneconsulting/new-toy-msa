@@ -1,9 +1,9 @@
 server:
-  port: 0
+  port: 8083
 
 spring:
   application:
-    name: catalog-service
+    name: product-service
   kafka:
     bootstrap-servers: localhost:9092
     consumer:
@@ -11,7 +11,6 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       auto-offset-reset: earliest
-
   h2:
     console:
       enabled: true
@@ -31,14 +30,14 @@ spring:
     database: h2
     defer-datasource-initialization: true
 
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
-    fetch-registry: true
-    register-with-eureka: true
+#eureka:
+#  instance:
+#    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:8761/eureka
+#    fetch-registry: true
+#    register-with-eureka: true
 
 logging:
   level:

@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>catalog-service</module>
+        <module>product-service</module>
         <module>order-service</module>
         <module>service-discovery</module>
         <module>user-service</module>

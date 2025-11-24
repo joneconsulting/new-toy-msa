@@ -38,3 +38,5 @@
     * ch11-3: openfeign
     * ch11-4: apply to a logger level
     * ch11-5: apply to a feign exception and error decoder
+  * Section 12)
+    * ch12-1: Kafka examples (order-service, catalog-service)

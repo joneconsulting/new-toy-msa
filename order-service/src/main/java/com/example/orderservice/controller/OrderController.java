@@ -5,6 +5,7 @@ import com.example.orderservice.jpa.OrderEntity;
 import com.example.orderservice.service.OrderService;
 import com.example.orderservice.vo.RequestOrder;
 import com.example.orderservice.vo.ResponseOrder;
+import com.example.orderservice.kafka.OrderProducerService;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/order-service")
@@ -24,10 +26,13 @@ public class OrderController {
     Environment env;
     OrderService orderService;
 
+    OrderProducerService orderProducerService;
+
     @Autowired
-    public OrderController(Environment env, OrderService orderService) {
+    public OrderController(Environment env, OrderService orderService, OrderProducerService orderProducerService) {
         this.env = env;
         this.orderService = orderService;
+        this.orderProducerService = orderProducerService;
     }
 
     @GetMapping("/health-check")
@@ -49,6 +54,13 @@ public class OrderController {
         /* jpa */
         OrderDto createdOrder = orderService.createOrder(orderDto);
         ResponseOrder responseOrder = mapper.map(createdOrder, ResponseOrder.class);
+
+        /* kafka */
+        orderDto.setOrderId(UUID.randomUUID().toString());
+        orderDto.setTotalPrice(orderDetails.getQty() * orderDetails.getUnitPrice());
+
+        /* send this order to the kafka */
+        orderProducerService.send("example-product-topic", orderDto);
 
         log.info("After added orders data");
         return ResponseEntity.status(HttpStatus.CREATED).body(responseOrder);

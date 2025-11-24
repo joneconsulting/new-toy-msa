@@ -1,14 +1,19 @@
 server:
-  port: 0
+  port: 8082
 
 spring:
   application:
     name: order-service
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    username: guest
+#    password: guest
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
   h2:
     console:
       enabled: true
@@ -24,14 +29,14 @@ spring:
     hibernate:
       ddl-auto: update
 
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
-    fetch-registry: true
-    register-with-eureka: true
+#eureka:
+#  instance:
+#    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:8761/eureka
+#    fetch-registry: true
+#    register-with-eureka: true
 
 logging:
   level:
