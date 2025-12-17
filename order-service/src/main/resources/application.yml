@@ -29,15 +29,38 @@ spring:
     hibernate:
       ddl-auto: update
 
-#eureka:
-#  instance:
-#    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-#  client:
-#    service-url:
-#      defaultZone: http://127.0.0.1:8761/eureka
-#    fetch-registry: true
-#    register-with-eureka: true
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
 
 logging:
   level:
     org.springframework.security: DEBUG
+  pattern:
+    level: "%5p [${spring.application.name},traceId=%X{traceId},spanId=%X{spanId}]"
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0      # 1.0이면 100% 샘플링 (개발/테스트 환경에서 유용)
+  propagation:
+    consume: w3c
+    produce: w3c
+    otlp:
+      tracing:
+        endpoint: http://localhost:9411/api/v2/spans   # Zipkin HTTP endpoint 사용
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
+          - beans
+          - info
+          - busrefresh
+          - env
