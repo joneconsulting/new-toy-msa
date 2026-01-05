@@ -1,0 +1,643 @@
+{"timestamp":"2025-12-24T00:11:44.712+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m26s526ms)."}
+{"timestamp":"2025-12-24T01:19:28.244+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T02:13:21.046+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T02:13:22.377+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m37s665ms)."}
+{"timestamp":"2025-12-24T02:52:47.302+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m24s906ms)."}
+{"timestamp":"2025-12-24T03:47:42.100+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T03:47:47.390+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m107ms)."}
+{"timestamp":"2025-12-24T04:42:56.649+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m9s259ms)."}
+{"timestamp":"2025-12-24T06:23:16.522+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T06:27:16.287+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h44m19s638ms)."}
+{"timestamp":"2025-12-24T07:30:10.211+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h2m53s924ms)."}
+{"timestamp":"2025-12-24T07:33:05.435+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:35:13.437+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m3s226ms)."}
+{"timestamp":"2025-12-24T07:36:08.307+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:37:08.337+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:37:12.030+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T07:38:08.370+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:39:08.403+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:40:08.432+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:41:08.474+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:42:08.513+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:42:12.027+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T07:43:08.550+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:44:08.575+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:45:08.595+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:46:08.615+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:47:08.641+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:47:12.023+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T07:48:08.666+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:49:08.694+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:50:08.717+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:51:08.749+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:52:08.792+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:52:12.019+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T07:53:08.826+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:54:08.863+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:55:08.900+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:56:08.927+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:57:08.960+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:57:12.024+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T07:58:08.988+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T07:59:09.018+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:00:09.052+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:01:09.091+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:02:09.118+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:02:12.022+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:03:09.155+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:04:09.189+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:05:09.227+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:06:09.200+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:07:09.219+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:07:11.966+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:08:09.258+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:09:09.290+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:10:09.323+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:11:09.354+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:12:09.382+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:12:11.962+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:13:09.415+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:14:09.433+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:15:09.456+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:16:09.478+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:17:09.499+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:17:11.957+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:18:09.521+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:19:09.542+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:20:09.569+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:21:09.853+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:22:09.880+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:22:12.215+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:23:09.909+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:24:19.960+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:25:20.008+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:26:20.074+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:27:12.219+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:27:20.110+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:28:20.138+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:29:20.164+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:30:20.187+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:31:20.221+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:32:12.222+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:32:20.255+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:33:20.283+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:34:20.324+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:35:20.353+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:36:20.391+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:37:12.173+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:37:20.375+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:38:20.421+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:39:20.455+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:40:20.503+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:41:20.536+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:42:12.177+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:42:20.582+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:43:20.627+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:44:20.667+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:45:20.702+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:46:20.732+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:47:12.179+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:47:20.757+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:48:20.780+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:49:20.803+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:50:20.827+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:51:20.848+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:52:12.182+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:52:20.880+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:53:20.912+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:54:20.944+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:55:20.972+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:56:21.003+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:57:12.184+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T08:57:21.036+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:58:21.065+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T08:59:21.100+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:00:21.140+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:01:21.186+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:02:12.186+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T09:02:21.225+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:03:21.271+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:04:21.313+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:05:21.356+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:06:21.402+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:07:12.216+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T09:07:21.482+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:08:21.538+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:09:21.580+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:10:21.617+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:11:21.657+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:12:12.242+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T09:12:21.699+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:13:21.743+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:14:21.774+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:15:21.808+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:16:21.841+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:17:12.246+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T09:17:21.871+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:18:21.900+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:19:21.932+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:20:21.970+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:21:22.009+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:22:12.266+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T09:22:22.064+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:23:22.107+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:24:22.142+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:25:22.177+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:26:22.215+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:27:12.286+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T09:27:22.260+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:43:35.197+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m51s317ms)."}
+{"timestamp":"2025-12-24T09:43:43.616+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T09:44:43.646+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:01:42.013+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m6s828ms)."}
+{"timestamp":"2025-12-24T10:02:20.511+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:03:20.551+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:04:10.418+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:04:20.596+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:10:02.637+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m50s617ms)."}
+{"timestamp":"2025-12-24T10:10:41.249+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:11:41.286+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:12:41.332+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:13:55.540+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:14:45.194+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:14:55.587+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:15:56.604+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:16:56.687+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:17:56.732+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:18:56.776+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:19:46.213+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:19:56.814+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:20:56.854+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:21:56.899+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:22:56.945+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:23:56.990+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:24:46.221+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:24:57.033+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:25:57.073+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:26:57.119+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:27:57.165+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:28:57.213+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:29:46.229+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:29:57.257+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:30:57.303+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:31:57.344+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:32:57.396+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:33:57.432+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:34:46.234+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:34:57.481+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:35:57.525+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:36:57.572+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:37:57.610+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:38:57.652+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:39:46.240+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:39:57.697+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:40:57.742+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:41:57.785+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:42:57.823+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:43:57.860+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:44:46.247+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:44:57.894+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:45:57.933+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:46:57.977+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:47:58.025+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:48:57.999+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:49:46.180+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:49:58.042+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:50:58.096+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:51:58.141+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:52:58.184+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:53:58.231+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:54:46.182+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:54:58.270+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:55:58.308+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:56:58.347+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:57:58.389+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:58:58.435+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T10:59:46.184+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T10:59:58.473+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:00:58.513+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:01:58.557+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:02:58.595+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:03:58.633+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:04:46.187+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:04:58.678+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:05:58.717+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:06:58.747+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:07:58.779+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:08:58.812+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:09:46.190+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:09:58.838+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:10:58.866+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:11:58.901+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:12:58.931+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:13:58.965+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:14:46.193+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:14:58.999+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:16:01.775+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:26:24.190+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m3s479ms)."}
+{"timestamp":"2025-12-24T11:26:35.320+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:27:45.358+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:28:45.339+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:29:22.376+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:29:45.386+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:30:45.431+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:31:45.477+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:32:45.518+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:33:45.557+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:34:22.376+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:34:45.589+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:35:45.620+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:36:45.662+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:37:45.701+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:38:45.751+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:39:22.376+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:39:45.787+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:40:45.833+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:41:45.877+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:42:45.920+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:43:45.948+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:44:22.385+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:44:46.008+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:45:46.047+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:46:46.098+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:47:46.149+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:48:46.198+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:49:22.396+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:49:46.254+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:50:46.298+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:51:46.345+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:52:46.393+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:53:46.437+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:54:22.397+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:54:46.493+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:55:46.536+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:56:46.585+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:57:46.630+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:58:46.675+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T11:59:22.395+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T11:59:46.715+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:00:46.760+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:01:46.803+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:02:46.848+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:03:46.892+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:04:22.391+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:04:46.936+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:05:46.969+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:06:47.008+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:07:47.051+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:08:47.105+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:09:22.391+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:09:47.149+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:10:47.195+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:11:47.241+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:12:47.283+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:13:47.329+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:14:22.335+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:14:47.314+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:15:47.355+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:16:47.393+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:17:47.433+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:18:47.482+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:19:22.334+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:19:47.525+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:20:47.573+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:21:47.614+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:22:47.657+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:23:47.700+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:24:22.331+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:24:47.742+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:25:47.786+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:26:47.828+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:27:47.858+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:28:47.891+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:29:22.330+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:29:48.007+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:30:48.047+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:31:48.089+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:32:48.137+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:33:48.175+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:34:22.405+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:34:48.213+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:35:48.258+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:36:48.302+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:37:48.347+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:38:48.388+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:39:22.408+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:39:48.433+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:40:48.469+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:41:48.505+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:42:48.547+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:43:48.584+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:44:22.410+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:44:48.618+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:45:48.659+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:46:48.696+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:47:48.736+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:48:48.779+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:49:22.413+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:49:48.822+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:50:48.866+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:51:48.903+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:52:48.935+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:53:48.960+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:54:22.414+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:54:48.997+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:55:49.030+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:56:49.074+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:57:49.121+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:58:49.158+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T12:59:22.416+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T12:59:49.195+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:00:49.222+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:01:49.257+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:02:49.300+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:03:49.336+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:04:22.402+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:04:49.374+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:05:49.415+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:06:49.450+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:07:49.491+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:08:49.533+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:09:22.403+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:09:49.571+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:10:49.604+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:11:49.655+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:12:49.702+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:13:49.757+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:14:22.404+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:14:49.792+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:15:49.825+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:16:49.853+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:17:49.883+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:18:49.909+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:19:22.402+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:19:49.944+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:20:49.983+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:22:00.016+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:23:22.754+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:26:53.874+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m58s304ms)."}
+{"timestamp":"2025-12-24T13:27:29.532+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:27:51.830+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:28:29.563+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:29:29.593+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:30:29.616+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:31:29.647+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:32:29.669+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:32:51.830+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:33:29.701+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:34:29.735+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:35:29.769+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:36:29.805+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:37:29.849+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:37:51.830+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:38:29.891+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:39:29.929+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:40:29.961+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:41:29.995+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:42:30.027+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:42:51.843+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:43:30.069+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:44:30.104+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:45:30.133+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:46:30.171+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:47:30.204+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:47:51.846+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:48:30.238+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:49:30.260+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:50:30.277+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:51:30.295+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:52:30.315+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:52:51.851+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T13:53:30.345+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:54:30.366+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T13:55:26.972+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m3s36ms)."}
+{"timestamp":"2025-12-24T14:06:48.780+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m21s808ms)."}
+{"timestamp":"2025-12-24T14:06:55.313+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:07:55.350+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:08:55.373+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:09:16.695+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:09:55.406+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:10:55.437+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:15:56.490+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m7s689ms)."}
+{"timestamp":"2025-12-24T14:16:33.163+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:17:33.194+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:18:33.234+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:18:54.384+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:19:33.264+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:20:33.301+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:21:33.334+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:22:33.372+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:23:33.402+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:23:54.387+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:24:33.433+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:25:33.471+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:26:33.507+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:27:33.534+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:28:33.562+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:28:54.391+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:29:33.586+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:30:33.613+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:31:33.688+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:32:33.719+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:33:33.749+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:33:54.444+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:34:33.786+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:35:33.829+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:36:33.861+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:37:33.884+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:38:33.911+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:38:54.450+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:39:33.938+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:40:33.969+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:41:33.993+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:42:34.022+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:43:34.051+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:43:54.455+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:44:34.075+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:45:34.110+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:46:34.127+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:47:34.164+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:48:34.201+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:48:54.446+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:49:34.235+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:50:34.261+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:51:34.286+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:52:34.314+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:53:34.343+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:53:54.452+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:54:34.380+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:55:34.408+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:56:34.438+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:57:34.465+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:58:34.494+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T14:58:54.458+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T14:59:34.521+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:00:34.547+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:01:34.586+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:02:34.615+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:03:34.650+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:03:54.464+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T15:04:34.676+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:05:34.702+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:06:34.731+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:07:34.758+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:08:34.787+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:08:54.469+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T15:09:34.820+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:10:34.854+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:11:34.883+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:12:34.902+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:13:34.923+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:13:54.475+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T15:14:34.946+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:15:34.969+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:16:35.015+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:17:35.047+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:18:35.075+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:18:54.502+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T15:31:05.467+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:41:17.300+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981 - Re-registering apps/ORDER-SERVICE"}
+{"timestamp":"2025-12-24T15:41:17.301+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981: registering service..."}
+{"timestamp":"2025-12-24T15:41:17.330+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981 - registration status: 204"}
+{"timestamp":"2025-12-24T15:41:28.546+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m1s831ms)."}
+{"timestamp":"2025-12-24T15:42:06.978+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T15:59:35.097+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m36s571ms)."}
+{"timestamp":"2025-12-24T15:59:52.456+09:00","level":"ERROR","thread":"registrationTask1","logger":"o.s.s.s.TaskUtils$LoggingErrorHandler","message":"Unexpected error occurred in scheduled task"}
+{"timestamp":"2025-12-24T16:00:13.575+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:01:13.617+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:02:13.638+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:02:32.876+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T16:03:13.666+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:04:13.695+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:05:13.715+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:06:13.734+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:06:42.962+09:00","level":"ERROR","thread":"registrationTask1","logger":"o.s.s.s.TaskUtils$LoggingErrorHandler","message":"Unexpected error occurred in scheduled task"}
+{"timestamp":"2025-12-24T16:07:13.764+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:07:32.878+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T16:08:13.786+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:09:13.806+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:10:13.829+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:11:13.852+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:12:13.879+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:12:32.886+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T16:13:13.897+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:14:13.912+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:15:13.942+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:16:13.974+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:17:14.054+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:17:32.943+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T16:18:14.083+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:19:14.105+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:20:14.132+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:21:14.161+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:22:14.192+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:22:32.950+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T16:23:14.219+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:24:14.242+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:25:14.260+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:26:14.279+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:27:53.024+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:28:55.621+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T16:29:48.025+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m42s716ms)."}
+{"timestamp":"2025-12-24T16:49:58.807+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m10s782ms)."}
+{"timestamp":"2025-12-24T16:50:08.245+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:51:08.273+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:52:08.297+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:53:08.322+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:54:08.351+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:54:26.525+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T16:55:08.381+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:56:08.408+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:57:08.432+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:58:08.458+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:59:08.487+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T16:59:26.532+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T17:00:08.511+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T17:01:08.539+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T17:02:08.568+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T17:03:08.595+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T17:04:08.619+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T17:04:26.534+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T17:05:08.654+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T17:50:56.282+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m27s434ms)."}
+{"timestamp":"2025-12-24T18:01:29.344+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:02:22.944+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m26s661ms)."}
+{"timestamp":"2025-12-24T18:03:03.234+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:04:03.269+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:05:03.299+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:05:21.029+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T18:06:45.660+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:08:08.816+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m15s401ms)."}
+{"timestamp":"2025-12-24T18:08:49.264+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:10:01.790+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:11:02.130+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:11:11.542+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s851ms), soft-evicting connections from pool."}
+{"timestamp":"2025-12-24T18:11:29.776+09:00","level":"ERROR","thread":"registrationTask1","logger":"o.s.s.s.TaskUtils$LoggingErrorHandler","message":"Unexpected error occurred in scheduled task"}
+{"timestamp":"2025-12-24T18:12:11.268+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T18:12:18.522+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T19:06:46.079+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m25s218ms)."}
+{"timestamp":"2025-12-24T19:10:53.461+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981 - Re-registering apps/ORDER-SERVICE"}
+{"timestamp":"2025-12-24T19:10:53.462+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981: registering service..."}
+{"timestamp":"2025-12-24T19:10:53.467+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981 - registration status: 204"}
+{"timestamp":"2025-12-24T19:10:53.566+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:11:04.148+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m18s69ms)."}
+{"timestamp":"2025-12-24T19:12:04.075+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:13:04.099+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:14:04.131+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:15:04.162+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:15:11.126+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T19:16:04.189+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:17:04.220+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:18:04.252+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:19:04.284+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:20:04.313+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:20:11.123+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T19:21:04.341+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:22:04.366+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:23:04.392+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:24:04.416+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:25:04.443+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:25:11.120+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T19:26:04.473+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:27:04.501+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:28:04.526+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:29:04.545+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:30:04.580+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:30:11.120+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T19:31:04.614+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:32:04.640+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:33:04.668+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:34:04.692+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:35:04.718+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:35:11.115+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T19:36:34.032+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T19:45:24.205+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m40s647ms)."}
+{"timestamp":"2025-12-24T21:07:14.165+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h21m49s960ms)."}
+{"timestamp":"2025-12-24T21:36:56.165+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981 - Re-registering apps/ORDER-SERVICE"}
+{"timestamp":"2025-12-24T21:36:56.166+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981: registering service..."}
+{"timestamp":"2025-12-24T21:36:56.206+09:00","level":"INFO","thread":"DiscoveryClient-HeartbeatExecutor-%d","logger":"c.n.d.DiscoveryClient","message":"DiscoveryClient_ORDER-SERVICE/order-service:fdc981b25ed8d9ae77efd0a3edbf9981 - registration status: 204"}
+{"timestamp":"2025-12-24T21:36:56.696+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T22:30:53.688+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m39s523ms)."}
+{"timestamp":"2025-12-24T23:04:12.596+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m18s908ms)."}
+{"timestamp":"2025-12-24T23:04:40.234+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:38:55.405+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m6s988ms)."}
+{"timestamp":"2025-12-24T23:43:55.509+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:44:09.281+09:00","level":"WARN","thread":"HikariPool-1:housekeeper","logger":"c.z.h.p.HikariPool","message":"HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m13s877ms)."}
+{"timestamp":"2025-12-24T23:45:01.692+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:45:06.751+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T23:46:01.726+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:47:01.753+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:48:01.776+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:49:01.799+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:50:01.830+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:50:06.757+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T23:51:01.866+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:52:01.891+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:53:01.921+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:54:01.955+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:55:01.992+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:55:06.764+09:00","level":"INFO","thread":"AsyncResolver-bootstrap-executor-%d","logger":"c.n.d.s.r.a.ConfigClusterResolver","message":"Resolving eureka endpoints via configuration"}
+{"timestamp":"2025-12-24T23:56:02.020+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:57:02.046+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:58:02.077+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}
+{"timestamp":"2025-12-24T23:59:02.103+09:00","level":"WARN","thread":"BatchSpanProcessor_WorkerThread-1","logger":"i.o.e.z.ZipkinSpanExporter","message":"Failed to export spans"}

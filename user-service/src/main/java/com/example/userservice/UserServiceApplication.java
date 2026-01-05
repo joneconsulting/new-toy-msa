@@ -39,9 +39,13 @@ public class UserServiceApplication {
 
 	@Bean
 	@LoadBalanced
-	public RestTemplate getRestTemplate() {
-		return new RestTemplate();
+//	public RestTemplate getRestTemplate() {
+//		return new RestTemplate();
+//	}
+	public RestTemplate restTemplate(RestTemplateBuilder builder) {
+		return builder.build();
 	}
+
 
 	@Bean
 	public Logger.Level feignLoggerLevel() {

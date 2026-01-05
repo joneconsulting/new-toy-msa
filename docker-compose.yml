@@ -1,0 +1,38 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.2.3
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:9.2.3
+    container_name: kibana
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:9.2.3
+    container_name: filebeat
+    user: root
+    volumes:
+      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      # Host의 로그 폴더를 Filebeat 컨테이너에 마운트
+      - ./logs:/var/log/apps:ro
+      # Filebeat registry(읽은 위치 저장) - 재시작해도 이어 읽기
+      - filebeat-data:/usr/share/filebeat/data
+    depends_on:
+      - elasticsearch
+      - kibana
+    command: ["--strict.perms=false"]
+
+volumes:
+  filebeat-data:

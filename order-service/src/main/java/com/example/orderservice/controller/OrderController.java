@@ -6,6 +6,8 @@ import com.example.orderservice.service.OrderService;
 import com.example.orderservice.vo.RequestOrder;
 import com.example.orderservice.vo.ResponseOrder;
 import com.example.orderservice.kafka.OrderProducerService;
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.MeterRegistry;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
@@ -28,11 +30,16 @@ public class OrderController {
 
     OrderProducerService orderProducerService;
 
+    private final Counter orderCounter;
+
     @Autowired
-    public OrderController(Environment env, OrderService orderService, OrderProducerService orderProducerService) {
+    public OrderController(Environment env, OrderService orderService, OrderProducerService orderProducerService,
+                           MeterRegistry meterRegistry) {
         this.env = env;
         this.orderService = orderService;
         this.orderProducerService = orderProducerService;
+        // 커스텀 카운터 매트릭 추가: orders_created
+        this.orderCounter = meterRegistry.counter("orders_created");
     }
 
     @GetMapping("/health-check")
@@ -61,6 +68,9 @@ public class OrderController {
 
         /* send this order to the kafka */
         orderProducerService.send("example-product-topic", orderDto);
+
+        /* 주문 생성 시 카운터 1 증가 */
+        orderCounter.increment();
 
         log.info("After added orders data");
         return ResponseEntity.status(HttpStatus.CREATED).body(responseOrder);
