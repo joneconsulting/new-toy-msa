@@ -1,0 +1,52 @@
+filebeat.inputs:
+  # 1) user-service 로그 수집
+  - type: filestream
+    id: user-service-logs
+    enabled: true
+    paths:
+      - /var/log/apps/user-service/*.json
+    parsers:
+      - ndjson:
+          keys_under_root: true
+          add_error_key: true
+          overwrite_keys: true
+    fields_under_root: true
+    fields:
+      service.name: user-service
+      service.type: spring-boot
+
+  # 2) order-service 로그 수집
+  - type: filestream
+    id: order-service-logs
+    enabled: true
+    paths:
+      - /var/log/apps/order-service/*.json
+    parsers:
+      - ndjson:
+          keys_under_root: true
+          add_error_key: true
+          overwrite_keys: true
+    fields_under_root: true
+    fields:
+      service.name: order-service
+      service.type: spring-boot
+
+# (권장) 공통 필드 정리/보강
+processors:
+  - add_host_metadata: {}
+  - add_cloud_metadata: {}
+  - add_fields:
+      target: ""
+      fields:
+        event.dataset: springboot.logs
+
+# 출력: Elasticsearch
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+  # 보안이 켜져 있다면 username/password 또는 api_key 설정 필요
+  # username: "elastic"
+  # password: "changeme"
+
+# (선택) Kibana 대시보드 로딩용
+setup.kibana:
+  host: "http://kibana:5601"
