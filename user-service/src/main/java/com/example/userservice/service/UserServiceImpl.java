@@ -1,10 +1,12 @@
 package com.example.userservice.service;
 
 import com.example.userservice.client.OrderServiceClient;
+import com.example.userservice.client.PaymentServiceClient;
 import com.example.userservice.dto.UserDto;
 import com.example.userservice.jpa.UserEntity;
 import com.example.userservice.jpa.UserRepository;
 import com.example.userservice.vo.ResponseOrder;
+import com.example.userservice.vo.ResponsePayment;
 import feign.FeignException;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
@@ -19,6 +21,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+import reactor.core.scheduler.Schedulers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,15 +41,17 @@ public class UserServiceImpl implements UserService {
     RestTemplate restTemplate;
 
     OrderServiceClient orderServiceClient;
+    PaymentServiceClient paymentServiceClient;
 
     public UserServiceImpl(Environment env, UserRepository userRepository,
                            BCryptPasswordEncoder passwordEncoder, RestTemplate restTemplate,
-                           OrderServiceClient orderServiceClient) {
+                           OrderServiceClient orderServiceClient, PaymentServiceClient paymentServiceClient) {
         this.env = env;
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
         this.restTemplate = restTemplate;
         this.orderServiceClient = orderServiceClient;
+        this.paymentServiceClient = paymentServiceClient;
     }
 
     @Override
@@ -85,25 +92,36 @@ public class UserServiceImpl implements UserService {
 
         UserDto userDto = new ModelMapper().map(userEntity, UserDto.class);
 
-        /* using a resttemplate */
-//        String orderUrl = String.format(env.getProperty("order-service.url"), userId);
-//        ResponseEntity<List<ResponseOrder>> orderListResponse =
-//                restTemplate.exchange(orderUrl, HttpMethod.GET, null,
-//                                            new ParameterizedTypeReference<List<ResponseOrder>>() {
-//                });
-//        List<ResponseOrder> orderList = orderListResponse.getBody();
-
-        /* using a feignclient with logger */
-//        List<ResponseOrder> orderList = null;
-//        try {
-//            orderList = orderServiceClient.getOrders(userId);
-//        } catch (FeignException ex) {
-//            log.error(ex.getMessage());
-//        }
-
-        /* using a feignclient with errordecoder */
         List<ResponseOrder> orderList = orderServiceClient.getOrders(userId);
+        // 방법 1: For each code
+        for (ResponseOrder order : orderList) {
+
+            ResponsePayment responsePayment =
+                    paymentServiceClient.getPayment(order.getOrderId());
+
+            if (responsePayment != null) {
+                order.setPaymentStatus(responsePayment.getStatus());
+                order.setPaymentDate(responsePayment.getCreatedAt());
+            }
+        }
         userDto.setOrders(orderList);
+
+        // 방법 2: WebFlux code
+//        List<ResponseOrder> enrichedOrderList = Flux.fromIterable(orderList)
+//                .flatMap(order ->
+//                        Mono.fromCallable(() -> paymentServiceClient.getPayment(order.getOrderId()))
+//                                .subscribeOn(Schedulers.boundedElastic())
+//                                .doOnNext(payment -> {
+//                                    if (payment != null) {
+//                                        order.setPaymentStatus(payment.getStatus());
+//                                    }
+//                                })
+//                                .thenReturn(order)
+//                                .onErrorReturn(order)
+//                )
+//                .collectList()
+//                .block();
+//        userDto.setOrders(enrichedOrderList);
 
         return userDto;
     }

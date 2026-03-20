@@ -4,16 +4,10 @@ server:
 spring:
   application:
     name: order-service
-#  rabbitmq:
-#    host: 127.0.0.1
-#    port: 5672
-#    username: guest
-#    password: guest
-  kafka:
-    bootstrap-servers: localhost:9092
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  config:
+    import: optional:configserver:http://127.0.0.1:8888
+  profiles:
+    active: dev
   h2:
     console:
       enabled: true
@@ -41,19 +35,11 @@ eureka:
 logging:
   level:
     org.springframework.security: DEBUG
+    com.example.orderservice.client: DEBUG
   pattern:
     level: "%5p [${spring.application.name},traceId=%X{traceId},spanId=%X{spanId}]"
 
 management:
-  tracing:
-    sampling:
-      probability: 1.0      # 1.0이면 100% 샘플링 (개발/테스트 환경에서 유용)
-  propagation:
-    consume: w3c
-    produce: w3c
-    otlp:
-      tracing:
-        endpoint: http://localhost:9411/api/v2/spans   # Zipkin HTTP endpoint 사용
   endpoints:
     web:
       exposure:

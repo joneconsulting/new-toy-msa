@@ -1,9 +1,9 @@
 server:
-  port: 8081
+  port: 8084
 
 spring:
   application:
-    name: product-service
+    name: payment-service
   config:
     import: optional:configserver:http://127.0.0.1:8888
   profiles:
@@ -21,11 +21,7 @@ spring:
     password:
   jpa:
     hibernate:
-      ddl-auto: create-drop
-    show-sql: true
-    generate-ddl: true
-    database: h2
-    defer-datasource-initialization: true
+      ddl-auto: update
 
 eureka:
   instance:
@@ -39,6 +35,8 @@ eureka:
 logging:
   level:
     org.springframework.security: DEBUG
+  pattern:
+    level: "%5p [${spring.application.name},traceId=%X{traceId},spanId=%X{spanId}]"
 
 management:
   endpoints:

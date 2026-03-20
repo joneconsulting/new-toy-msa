@@ -1,16 +1,12 @@
 server:
-  port: 8081
-
+  port: 8083
 spring:
   application:
     name: user-service
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
-#  profiles:
-#    active: dev
+  config:
+    import: optional:configserver:http://127.0.0.1:8888
+  profiles:
+    active: dev
   h2:
     console:
       enabled: true
@@ -25,10 +21,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-  security:
-    user:
-      name: user
-      password: $2a$10$g70rRcQBR7Jnm9A9m/Nqje8lCIPeADz2.VBMxhPyzUBoJc28pvC9.
+  web:
+    error:
+      include-stacktrace: never
 
 logging:
   level:
@@ -43,13 +38,6 @@ eureka:
       defaultZone: http://127.0.0.1:8761/eureka
     fetch-registry: true
     register-with-eureka: true
-
-greeting:
-  message: Welcome to the Simple E-commerce. (spring boot)
-
-token:
-  expiration-time: 86400000 #10 days
-  secret: my-very-long-secret-key-1234567890123456
 
 management:
   endpoints:

@@ -5,7 +5,7 @@ import com.example.orderservice.jpa.OrderEntity;
 import com.example.orderservice.service.OrderService;
 import com.example.orderservice.vo.RequestOrder;
 import com.example.orderservice.vo.ResponseOrder;
-import com.example.orderservice.kafka.OrderProducerService;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
@@ -26,13 +26,10 @@ public class OrderController {
     Environment env;
     OrderService orderService;
 
-    OrderProducerService orderProducerService;
-
     @Autowired
-    public OrderController(Environment env, OrderService orderService, OrderProducerService orderProducerService) {
+    public OrderController(Environment env, OrderService orderService) {
         this.env = env;
         this.orderService = orderService;
-        this.orderProducerService = orderProducerService;
     }
 
     @GetMapping("/health-check")
@@ -40,6 +37,11 @@ public class OrderController {
         return String.format("It's Working in Order Service on LOCAL PORT %s (SERVER PORT %s)",
                 env.getProperty("local.server.port"),
                 env.getProperty("server.port"));
+    }
+
+    @GetMapping("/welcome")
+    public String welcome() {
+        return env.getProperty("greeting.message");
     }
 
     @PostMapping("/{userId}/orders")
@@ -54,13 +56,6 @@ public class OrderController {
         /* jpa */
         OrderDto createdOrder = orderService.createOrder(orderDto);
         ResponseOrder responseOrder = mapper.map(createdOrder, ResponseOrder.class);
-
-        /* kafka */
-        orderDto.setOrderId(UUID.randomUUID().toString());
-        orderDto.setTotalPrice(orderDetails.getQty() * orderDetails.getUnitPrice());
-
-        /* send this order to the kafka */
-        orderProducerService.send("example-product-topic", orderDto);
 
         log.info("After added orders data");
         return ResponseEntity.status(HttpStatus.CREATED).body(responseOrder);

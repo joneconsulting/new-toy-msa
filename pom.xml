@@ -13,13 +13,11 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>catalog-service</module>
         <module>product-service</module>
         <module>order-service</module>
         <module>service-discovery</module>
         <module>user-service</module>
-        <module>first-service</module>
-        <module>second-service</module>
+        <module>payment-service</module>
         <module>apigateway-service</module>
         <module>config-service</module>
     </modules>

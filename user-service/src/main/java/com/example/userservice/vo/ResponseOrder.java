@@ -12,5 +12,8 @@ public class ResponseOrder {
     private Integer totalPrice;
     private Date createdAt;
 
+    private String paymentStatus;
+    private Date paymentDate;
+
     private String orderId;
 }
