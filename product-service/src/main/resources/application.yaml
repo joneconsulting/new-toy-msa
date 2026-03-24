@@ -26,6 +26,12 @@ spring:
     generate-ddl: true
     database: h2
     defer-datasource-initialization: true
+  kafka:
+    consumer:
+      group-id: "product-service-group"
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      auto-offset-reset: earliest
 
 eureka:
   instance:

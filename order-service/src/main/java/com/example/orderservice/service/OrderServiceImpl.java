@@ -38,6 +38,7 @@ public class OrderServiceImpl implements OrderService {
 
         orderRepository.save(orderEntity);
 
+        /* payment */
         RequestPayment requestPayment = new RequestPayment(orderDto.getOrderId()
                 ,orderDto.getUserId(), orderDto.getTotalPrice(), "BANK");
         ResponsePayment responsePayment = paymentServiceClient.createPayment(requestPayment);
