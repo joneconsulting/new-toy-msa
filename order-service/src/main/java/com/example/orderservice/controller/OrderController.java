@@ -68,6 +68,9 @@ public class OrderController {
         /* send this order to the kafka */
         orderProducerService.sendOrder(orderDto);
 
+        /* send this order for EDA */
+        orderProducerService.createOrder4EDA(orderDto);
+
         log.info("After added orders data");
         return ResponseEntity.status(HttpStatus.CREATED).body(responseOrder);
     }
