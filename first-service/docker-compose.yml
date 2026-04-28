@@ -1,0 +1,19 @@
+version: '3'
+services:
+  broker:
+    image: "apache/kafka:latest"
+    ports:
+      - "9092:9092"
+    depends_on:
+      - consul
+      - zipkin
+
+  zipkin:
+    image: "openzipkin/zipkin"
+    ports:
+      - "9411:9411"
+
+  consul:
+    image: "hashicorp/consul"
+    ports:
+      - "8500:8500"
