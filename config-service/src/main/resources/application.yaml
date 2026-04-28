@@ -1,0 +1,38 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-service
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/joneconsulting/spring-cloud-msa-book # 설정들이 저장된 Git 리포지토리 경로
+          default-label: main                                      # 기본 브랜치(label)명 (예: main/master)
+          search-paths: config
+        encrypt:
+          enabled: true
+
+encrypt:
+  key: A1B2C3D4E5F6070890ABCDEF12345678  # 대칭 암호화 키 (예시)
+
+#  key-store:
+#    location: file:///C:/Work/keystore/apiEncryptionKey.jks    # 키스토어 파일 경로
+##    location: file:///Users/edowon/Desktop/Work/keystore/apiEncryptionKey.jks    # 키스토어 파일 경로
+#    password: changeit                                     # 키스토어 비밀번호 (storepass)
+#    alias: apiEncryptionKey                                # 키 별칭
+#    type: jks                                           # (생략 가능, 기본값 jks. PKCS12 사용 시 pkcs12로 명시)
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
+          - beans
+          - info
+          - busrefresh

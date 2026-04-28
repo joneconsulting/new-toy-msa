@@ -2,10 +2,11 @@ package com.example.orderservice.controller;
 
 import com.example.orderservice.dto.OrderDto;
 import com.example.orderservice.jpa.OrderEntity;
+import com.example.orderservice.kafka.OrderProducerService;
 import com.example.orderservice.service.OrderService;
 import com.example.orderservice.vo.RequestOrder;
 import com.example.orderservice.vo.ResponseOrder;
-import com.example.orderservice.kafka.OrderProducerService;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
@@ -23,10 +24,10 @@ import java.util.UUID;
 @RequestMapping("/order-service")
 @Slf4j
 public class OrderController {
-    Environment env;
-    OrderService orderService;
+    private final Environment env;
+    private final OrderService orderService;
 
-    OrderProducerService orderProducerService;
+    private final OrderProducerService orderProducerService;
 
     @Autowired
     public OrderController(Environment env, OrderService orderService, OrderProducerService orderProducerService) {
@@ -40,6 +41,11 @@ public class OrderController {
         return String.format("It's Working in Order Service on LOCAL PORT %s (SERVER PORT %s)",
                 env.getProperty("local.server.port"),
                 env.getProperty("server.port"));
+    }
+
+    @GetMapping("/welcome")
+    public String welcome() {
+        return env.getProperty("greeting.message");
     }
 
     @PostMapping("/{userId}/orders")
@@ -60,7 +66,10 @@ public class OrderController {
         orderDto.setTotalPrice(orderDetails.getQty() * orderDetails.getUnitPrice());
 
         /* send this order to the kafka */
-        orderProducerService.send("example-product-topic", orderDto);
+        orderProducerService.sendOrder(orderDto);
+
+        /* send this order for EDA */
+        orderProducerService.createOrder4EDA(orderDto);
 
         log.info("After added orders data");
         return ResponseEntity.status(HttpStatus.CREATED).body(responseOrder);

@@ -23,9 +23,9 @@ public class OrderConsumerService {
         this.repository = repository;
     }
 
-    @KafkaListener(topics = "example-product-topic")
+    @KafkaListener(topics = "example-orders-topic", groupId = "product-service-group")
     public void updateQty(String kafkaMessage) {
-        log.info("Kafka Message: ->" + kafkaMessage);
+        log.info("Received Kafka message: {}", kafkaMessage);
 
         Map<Object, Object> map = new HashMap<>();
         ObjectMapper mapper = new ObjectMapper();
