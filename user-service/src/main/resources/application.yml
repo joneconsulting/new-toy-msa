@@ -1,9 +1,12 @@
 server:
-  port: 0
+  port: 8083
 
 spring:
   application:
     name: user-service
+#  config:
+#    import: "optional:configserver:http://localhost:8888"
+#    name: ecommerce
   h2:
     console:
       enabled: true
@@ -22,6 +25,11 @@ spring:
     user:
       name: user
       password: $2a$10$g70rRcQBR7Jnm9A9m/Nqje8lCIPeADz2.VBMxhPyzUBoJc28pvC9.
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 
 logging:
   level:
@@ -30,6 +38,7 @@ logging:
 eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka
@@ -37,11 +46,11 @@ eureka:
     register-with-eureka: true
 
 greeting:
-  message: Welcome to the Simple E-commerce. (spring boot)
+  message: Welcome to the Simple E-commerce.
 
-#token:
-#  expiration-time: 86400000 #10 days
-#  secret: my-very-long-secret-key-1234567890123456
+token:
+  expiration-time: 86400000 #10 days
+  secret: my-very-long-secret-key-1234567890123456 (local)
 
 management:
   endpoints:
@@ -52,4 +61,5 @@ management:
           - health
           - beans
           - info
+          - busrefresh
 

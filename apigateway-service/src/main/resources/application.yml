@@ -2,6 +2,9 @@ server:
   port: 8000
 
 eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    prefer-ip-address: true
   client:
     register-with-eureka: true
     fetch-registry: true
@@ -11,6 +14,12 @@ eureka:
 spring:
   application:
     name: apigateway-service
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+
   cloud:
     gateway:
       server:
@@ -56,7 +65,7 @@ spring:
               predicates:
                 - Path=/order-service/**
             - id: first-service
-              uri: lb://MY-FIRST-SERVICE
+              uri: lb://MY-FIRST-SERVICE # http://localhost:8081/ DO NOT USED
               predicates:
                 - Path=/first-service/**
               filters:
@@ -71,7 +80,7 @@ spring:
 #                - AddRequestHeader=s-request, 2nd-request-header-by-yaml
 #                - AddResponseHeader=s-response, 2nd-response-header-from-yaml
                 - name: CustomFilter
-                - name: LoggingFilter
+#                - name: LoggingFilter
                   args:
                     baseMessage: Hi, there.
                     preLogger: true
@@ -90,3 +99,4 @@ management:
           - beans
           - info
           - httpexchanges
+          - busrefresh

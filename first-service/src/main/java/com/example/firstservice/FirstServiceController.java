@@ -33,13 +33,13 @@ public class FirstServiceController {
 
     @GetMapping("/message")
     public String message(@RequestHeader("f-request") String header) {
-        log.info(header);
+//        log.info(header);
         return "Hello World in First Service.";
     }
 
     @GetMapping("/check")
     public String check(HttpServletRequest request) {
-        log.info("Server port={}", request.getServerPort());
+//        log.info("Server port={}", request.getServerPort());
 
         return String.format("Hi, there. This is a message from First Service on PORT %s"
                 , env.getProperty("local.server.port"));
