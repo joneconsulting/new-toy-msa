@@ -38,6 +38,7 @@ logging:
 eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://127.0.0.1:8761/eureka
@@ -50,6 +51,11 @@ greeting:
 #token:
 #  expiration-time: 86400000 #10 days
 #  secret: my-very-long-secret-key-1234567890123456
+
+order-service:
+  exception:
+    order_is_empty: User's orders is empty.
+
 
 management:
   endpoints:
