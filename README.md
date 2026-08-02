@@ -40,9 +40,10 @@
     * ch11-5: apply to a feign exception and error decoder
   * Section 12)
     * ch12-1: Kafka examples (order-service, catalog-service)
-      * Migrate the order database from H2 to MariaDB.
+    * ch12-2: Migrate the order database from H2 to MariaDB.
       * Publish newly created order data to a Kafka topic, then use Kafka Sink Connector to store the order messages in MariaDB.
       * Store order messages from multiple scaled-out order service instances in a shared MariaDB database.
   * Section 13)
     * ch13-1: circuitbreak (using resilience4j)
+    * ch13-2: distributed tracing (using microservice)
       
