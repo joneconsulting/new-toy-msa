@@ -11,6 +11,9 @@ spring:
     password: guest
 #  profiles:
 #    active: dev
+  zipkin:
+    base-url: http://127.0.0.1:9411
+    enabled: true
   h2:
     console:
       enabled: true
@@ -63,4 +66,12 @@ management:
           - info
           - busrefresh
           - env
-
+  tracing:
+    sampling:
+      probability: 1.0
+    propagation:
+      consume: B3
+      produce: B3
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans

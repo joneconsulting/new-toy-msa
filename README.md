@@ -45,5 +45,5 @@
       * Store order messages from multiple scaled-out order service instances in a shared MariaDB database.
   * Section 13)
     * ch13-1: circuitbreak (using resilience4j)
-    * ch13-2: distributed tracing (using microservice)
+    * ch13-2: distributed tracing (using microservice) -> spring boot 3.5.x 기준
       
