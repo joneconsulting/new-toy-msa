@@ -6,6 +6,8 @@ import com.example.userservice.service.UserService;
 import com.example.userservice.vo.Greeting;
 import com.example.userservice.vo.RequestUser;
 import com.example.userservice.vo.ResponseUser;
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.MeterRegistry;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -31,11 +33,15 @@ public class UserController {
 
     private UserService userService;
 
+    private final Counter viewCounter;
+
     @Autowired
-    public UserController(Environment env, Greeting greeting, UserService userService) {
+    public UserController(Environment env, Greeting greeting, UserService userService
+                            , MeterRegistry meterRegistry) {
         this.env = env;
         this.greeting = greeting;
         this.userService = userService;
+        this.viewCounter = meterRegistry.counter("users_view");
     }
 
     @GetMapping("/health-check")
@@ -74,6 +80,9 @@ public class UserController {
 
     @GetMapping("/users")
     public ResponseEntity getUsers() {
+        /* 전체 사용자 목록보기 요청 시 카운터 1 증가 */
+        viewCounter.increment();
+
         Iterable<UserEntity> userList = userService.getUserByAll();
 
         List<ResponseUser> result = new ArrayList<>();
