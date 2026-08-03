@@ -41,6 +41,23 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
+          - beans
+          - info
+          - busrefresh
+          - env
+          - prometheus
+          - metrics
+  endpoint:
+    health:
+      show-details: always
+
 logging:
   level:
     org.springframework.security: DEBUG
