@@ -1,0 +1,13 @@
+services:
+  user-service:
+    container_name: user-service
+    image: user-service:1.0
+#    ports:
+#      - "8888:8888"
+    networks:
+      ecommerce-network:
+
+
+networks:
+  ecommerce-network:
+    external: true
