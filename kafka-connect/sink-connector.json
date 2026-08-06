@@ -1,0 +1,27 @@
+{
+  "name": "my-sink-connect",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "connection.url": "jdbc:mariadb://mariadb-sink:3306/mydb2",
+    "connection.user": "connect_user",
+    "connection.password": "connect1234",
+
+    "topics": "my_topic_users",
+
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "true",
+
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "true",
+
+    "auto.create": "true",
+    "auto.evolve": "true",
+
+    "insert.mode": "upsert",
+    "pk.mode": "record_value",
+    "pk.fields": "id",
+
+    "delete.enabled": "false",
+    "tasks.max": "1"
+  }
+}

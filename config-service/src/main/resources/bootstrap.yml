@@ -1,7 +1,7 @@
 encrypt:
 #  key: nj2021#fs!kAQ%w
   key-store:
-    location: file:///Users/edowon/Desktop/Work/52.keystore/apiEncryptionKey.jks
+    location: file:///app/apiEncryptionKey.jks
     password: 1q2w3e4r
     alias: apiEncryptionKey
 

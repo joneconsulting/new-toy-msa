@@ -1,0 +1,24 @@
+{
+
+  "name": "my-source-connect2",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
+    "connection.url": "jdbc:mariadb://mariadb-source:3306/newbb1",
+    "connection.user": "root",
+    "connection.password": "root1234",
+
+    "mode": "incrementing",
+    "incrementing.column.name": "id",
+
+    "table.whitelist": "newbb1.users",
+    "topic.prefix": "my_topic_",
+
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "true",
+
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "true",
+
+    "tasks.max": "1"
+  }
+}

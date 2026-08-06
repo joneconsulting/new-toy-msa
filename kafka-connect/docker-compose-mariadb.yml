@@ -1,0 +1,97 @@
+services:
+  mariadb-source:
+    image: mariadb:11.8
+    container_name: mariadb-source
+    hostname: mariadb-source
+    restart: unless-stopped
+
+    ports:
+      - "13306:3306"
+
+    environment:
+      MARIADB_ROOT_PASSWORD: root1234
+      MARIADB_DATABASE: mydb1
+      MARIADB_USER: connect_user
+      MARIADB_PASSWORD: connect1234
+      TZ: Asia/Seoul
+
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --bind-address=0.0.0.0
+
+    volumes:
+      - mariadb-source-data:/var/lib/mysql
+      - ./mariadb-source/init:/docker-entrypoint-initdb.d
+
+    networks:
+      - kafka-network
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "healthcheck.sh",
+          "--connect",
+          "--innodb_initialized"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+
+  mariadb-sink:
+    image: mariadb:11.8
+    container_name: mariadb-sink
+    hostname: mariadb-sink
+    restart: unless-stopped
+
+    ports:
+      - "23306:3306"
+
+    environment:
+      MARIADB_ROOT_PASSWORD: root1234
+      MARIADB_DATABASE: mydb2
+      MARIADB_USER: connect_user
+      MARIADB_PASSWORD: connect1234
+      TZ: Asia/Seoul
+
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --bind-address=0.0.0.0
+
+    volumes:
+      - mariadb-sink-data:/var/lib/mysql
+      - ./mariadb-sink/init:/docker-entrypoint-initdb.d
+
+    networks:
+      - kafka-network
+
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "healthcheck.sh",
+          "--connect",
+          "--innodb_initialized"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
+
+volumes:
+  mariadb-source-data:
+    name: mariadb-source-data
+
+  mariadb-sink-data:
+    name: mariadb-sink-data
+
+
+networks:
+  kafka-network:
+    name: kafka-network
+    driver: bridge
