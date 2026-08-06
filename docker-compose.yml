@@ -42,7 +42,7 @@ services:
 
       KAFKA_ADVERTISED_LISTENERS: >
         INTERNAL://kafka:29092,
-        EXTERNAL://localhost:9092
+        EXTERNAL://host.docker.internal:9092
 
       KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
 
@@ -126,7 +126,7 @@ services:
 
     volumes:
       # Windows의 connectors 폴더를 컨테이너에 연결
-      - ./connectors:/usr/share/custom-connectors
+      - ./kafka-connect/connectors:/usr/share/custom-connectors
 
     networks:
       - ecommerce-network
