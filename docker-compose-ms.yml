@@ -1,9 +1,17 @@
 services:
   user-service:
     container_name: user-service
-    image: user-service:1.0
-#    ports:
-#      - "8888:8888"
+    image: user-service:3.0
+    ports:
+      - "8088:8088"
+
+    environment:
+      - server.port=8088
+      - spring.zipkin.base-url=http://zipkin:9411
+      - eureka.client.service-url.defaultZone=http://service-discovery:8761/eureka
+      - management.zipkin.tracing.endpoint=http://zipkin:9411/api/v2/spans
+      - spring.cloud.config.uri=http://config-service:8888
+
     networks:
       ecommerce-network:
 

@@ -5,6 +5,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authorization.AuthorityAuthorizationDecision;
+import org.springframework.security.authorization.AuthorizationDecision;
 import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -21,8 +23,8 @@ public class WebSecurity {
     private Environment env;
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-    public static final String ALLOWED_IP_ADDRESS = "127.0.0.1";
-    public static final String SUBNET = "/32";
+    public static final String ALLOWED_IP_ADDRESS = "172.19.0.0";
+    public static final String SUBNET = "/16";
     public static final IpAddressMatcher ALLOWED_IP_ADDRESS_MATCHER = new IpAddressMatcher(ALLOWED_IP_ADDRESS + SUBNET);
 
     public WebSecurity(Environment env, UserService userService, BCryptPasswordEncoder bCryptPasswordEncoder) {
@@ -45,11 +47,17 @@ public class WebSecurity {
                     .requestMatchers("/actuator/**").permitAll()  // 특정 경로 허용
                     .requestMatchers("/health-check/**").permitAll()  // 특정 경로 허용
                     .requestMatchers("/welcome/**").permitAll()  // 특정 경로 허용
-                    .requestMatchers("/**").access(
-                            new WebExpressionAuthorizationManager(
-                                    "hasIpAddress('127.0.0.1') or hasIpAddress('::1') or " +
-                                    "hasIpAddress('192.168.10.19') or hasIpAddress('::1')")) // host pc ip address
-                    .anyRequest().authenticated()              // 그 외는 인증 필요
+                    .requestMatchers("/**")
+//                        .access(
+//                            new WebExpressionAuthorizationManager(
+//                                    "hasIpAddress('127.0.0.1') or hasIpAddress('::1') or " +
+//                                    "hasIpAddress('192.168.10.19') or hasIpAddress('::1')")) // host pc ip address
+                        .access((authentication, context) -> {
+                            boolean granted = ALLOWED_IP_ADDRESS_MATCHER.matches(context.getRequest());
+
+                            return new AuthorizationDecision(granted);
+                        })
+//                    .anyRequest().authenticated()              // 그 외는 인증 필요
                 )
             .authenticationManager(authenticationManager)
             .addFilter(getAuthenticationFilter(authenticationManager))
