@@ -1,9 +1,11 @@
 package com.example.userservice.security;
 
 import com.example.userservice.service.UserService;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authorization.AuthorityAuthorizationDecision;
 import org.springframework.security.authorization.AuthorizationDecision;
@@ -23,8 +25,8 @@ public class WebSecurity {
     private Environment env;
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
-    public static final String ALLOWED_IP_ADDRESS = "172.19.0.0";
-    public static final String SUBNET = "/16";
+    public static final String ALLOWED_IP_ADDRESS = "192.168.0.0"; // HOST
+    public static final String SUBNET = "/24";
     public static final IpAddressMatcher ALLOWED_IP_ADDRESS_MATCHER = new IpAddressMatcher(ALLOWED_IP_ADDRESS + SUBNET);
 
     public WebSecurity(Environment env, UserService userService, BCryptPasswordEncoder bCryptPasswordEncoder) {
@@ -47,6 +49,7 @@ public class WebSecurity {
                     .requestMatchers("/actuator/**").permitAll()  // 특정 경로 허용
                     .requestMatchers("/health-check/**").permitAll()  // 특정 경로 허용
                     .requestMatchers("/welcome/**").permitAll()  // 특정 경로 허용
+                    .requestMatchers(HttpMethod.POST, "/users").permitAll()
                     .requestMatchers("/**")
 //                        .access(
 //                            new WebExpressionAuthorizationManager(
@@ -55,13 +58,20 @@ public class WebSecurity {
                         .access((authentication, context) -> {
                             boolean granted = ALLOWED_IP_ADDRESS_MATCHER.matches(context.getRequest());
 
-                            return new AuthorizationDecision(granted);
+                            HttpServletRequest request = context.getRequest();
+
+                            System.out.println("=================================");
+                            System.out.println("RemoteAddr = " + request.getRemoteAddr());
+                            System.out.println("RemoteHost = " + request.getRemoteHost());
+                            System.out.println("=================================");
+
+                            return new AuthorizationDecision(true);
                         })
 //                    .anyRequest().authenticated()              // 그 외는 인증 필요
                 )
             .authenticationManager(authenticationManager)
             .addFilter(getAuthenticationFilter(authenticationManager))
-            .httpBasic(Customizer.withDefaults())  // ← Basic 인증 추가
+//            .httpBasic(Customizer.withDefaults())  // ← Basic 인증 추가
             .headers((headers) -> headers
                 .frameOptions((frameOptions) -> frameOptions.sameOrigin()));
 
