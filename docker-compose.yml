@@ -42,7 +42,7 @@ services:
 
       KAFKA_ADVERTISED_LISTENERS: >
         INTERNAL://kafka:29092,
-        EXTERNAL://host.docker.internal:9092
+        EXTERNAL://localhost:9092
 
       KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
 
