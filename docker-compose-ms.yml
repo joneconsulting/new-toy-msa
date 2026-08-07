@@ -29,6 +29,24 @@ services:
     networks:
       ecommerce-network:
 
+  order-service:
+    container_name: order-service
+    image: order-service:1.0
+    ports:
+      - "8087:8087"
+
+    environment:
+      - server.port=8087
+      - spring.zipkin.base-url=http://zipkin:9411
+      - eureka.client.service-url.defaultZone=http://service-discovery:8761/eureka
+      - management.zipkin.tracing.endpoint=http://zipkin:9411/api/v2/spans
+      - spring.kafka.bootstrap-servers=kafka:29092
+      - spring.datasource.url=jdbc:mariadb://mariadb-server:3306/mydb
+      - spring.datasource.password=
+
+    networks:
+      ecommerce-network:
+
 networks:
   ecommerce-network:
     external: true
