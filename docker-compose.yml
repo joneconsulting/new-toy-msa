@@ -15,20 +15,6 @@ services:
     networks:
       ecommerce-network:
 
-  apigateway-service:
-    container_name: apigateway-service
-    image: apigateway-service:1.0
-    ports:
-      - "8000:8000"
-    environment:
-      - eureka.client.service-url.defaultZone=http://service-discovery:8761/eureka
-      - spring.cloud.config.uri=http://config-service:8888
-
-    networks:
-      ecommerce-network:
-    depends_on:
-      - service-discovery
-
   kafka:
     image: confluentinc/cp-kafka:8.3.0
     container_name: kafka
