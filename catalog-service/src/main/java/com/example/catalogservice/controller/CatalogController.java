@@ -5,8 +5,6 @@ import com.example.catalogservice.service.CatalogService;
 import com.example.catalogservice.vo.ResponseCatalog;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
-import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,9 +20,6 @@ import java.util.List;
 public class CatalogController {
     Environment env;
     CatalogService catalogService;
-
-    @Autowired
-    private DiscoveryClient discoveryClient;
 
     @Autowired
     public CatalogController(Environment env, CatalogService catalogService) {
