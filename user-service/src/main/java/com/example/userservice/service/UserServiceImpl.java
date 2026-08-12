@@ -39,18 +39,16 @@ public class UserServiceImpl implements UserService {
 
     OrderServiceClient orderServiceClient;
 
-    CircuitBreakerFactory circuitBreakerFactory;
+//    CircuitBreakerFactory circuitBreakerFactory;
 
     public UserServiceImpl(Environment env, UserRepository userRepository,
                            BCryptPasswordEncoder passwordEncoder, RestTemplate restTemplate,
-                           OrderServiceClient orderServiceClient,
-                           CircuitBreakerFactory circuitBreakerFactory) {
+                           OrderServiceClient orderServiceClient) {
         this.env = env;
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
         this.restTemplate = restTemplate;
         this.orderServiceClient = orderServiceClient;
-        this.circuitBreakerFactory = circuitBreakerFactory;
     }
 
     @Override
@@ -109,12 +107,8 @@ public class UserServiceImpl implements UserService {
 //        }
 
         /* using a feignclient with errordecoder */
-//        orderList = orderServiceClient.getOrders(userId);
+        orderList = orderServiceClient.getOrders(userId);
 
-        /* circuitbreaker */
-        CircuitBreaker circuitBreaker = circuitBreakerFactory.create("circuitBreaker1");
-        orderList = circuitBreaker.run(() -> orderServiceClient.getOrders(userId),
-                throwable -> new ArrayList<>());
 
         userDto.setOrders(orderList);
 
